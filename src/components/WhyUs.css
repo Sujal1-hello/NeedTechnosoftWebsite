@@ -1,0 +1,10 @@
+/* WHY US */
+#why { background: linear-gradient(135deg, #005f8a 0%, #1a6878 100%); }
+#why .section-title { color: var(--white); }
+#why .section-sub { color: rgba(255,255,255,0.65); }
+.why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 22px; }
+.why-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(0,200,240,0.15); border-radius: 16px; padding: 34px 28px; text-align: center; transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1); backdrop-filter: blur(10px); }
+.why-card:hover { background: rgba(0,200,240,0.15); border-color: rgba(0,200,240,0.4); transform: translateY(-6px); box-shadow: 0 8px 32px rgba(0,200,240,0.2); }
+.why-card .icon { margin-bottom: 16px; display: flex; justify-content: center; color: var(--sky); }
+.why-card h4 { font-family: var(--font-display); font-size: 17px; font-weight: 800; color: var(--white); margin-bottom: 10px; }
+.why-card p { font-size: 13.5px; color: rgba(255,255,255,0.6); line-height: 1.7; font-weight: 400; }
